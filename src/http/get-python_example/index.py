@@ -2,4 +2,4 @@ import json
 import arc
 
 def handler(event, context):
-  return {'body': json.dump(arc.reflect())}
+  return {'body': json.dumps(arc.reflect())}
